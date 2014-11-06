@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/gems_interface/src/power
+END
+switch_monitor.C
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/gems_interface/src/power/switch_monitor.C
+END
+switch_monitor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/gems_interface/src/power/switch_monitor.hpp
+END
+buffer_monitor.C
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/gems_interface/src/power/buffer_monitor.C
+END
+power_module.C
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/gems_interface/src/power/power_module.C
+END
+buffer_monitor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/gems_interface/src/power/buffer_monitor.hpp
+END
+power_module.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/gems_interface/src/power/power_module.hpp
+END

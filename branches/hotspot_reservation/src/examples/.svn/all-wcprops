@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/examples
+END
+cmeshconfig
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/examples/cmeshconfig
+END
+flatflyconfig
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/examples/flatflyconfig
+END
+singleconfig
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/examples/singleconfig
+END
+mesh88_lat
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/examples/mesh88_lat
+END
+torus88
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/examples/torus88
+END

@@ -1,0 +1,43 @@
+10
+
+dir
+5519
+https://nocs.stanford.edu/cgi-bin/svn.cgi/booksim2.0/tags/pbook_baseline
+https://nocs.stanford.edu/cgi-bin/svn.cgi
+
+
+
+2012-08-30T00:31:31.124127Z
+5188
+dub
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+ce7aba0d-9f81-40a6-a495-cecae84b0515
+
+doc
+dir
+
+runfiles
+dir
+
+src
+dir
+
+merge_record
+dir
+
+utils
+dir
+

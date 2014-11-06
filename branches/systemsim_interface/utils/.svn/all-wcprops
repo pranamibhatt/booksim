@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/utils
+END
+sweep.sh
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/utils/sweep.sh
+END
+noc-power.pl
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/utils/noc-power.pl
+END

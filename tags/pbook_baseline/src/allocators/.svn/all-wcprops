@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators
+END
+separable.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/separable.hpp
+END
+selalloc.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/selalloc.hpp
+END
+loa.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/loa.cpp
+END
+wavefront.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/wavefront.cpp
+END
+maxsize.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cgi-bin/svn.cgi/!svn/ver/1089/booksim2.0/tags/pbook_baseline/src/allocators/maxsize.cpp
+END
+loa.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/loa.hpp
+END
+islip.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/islip.cpp
+END
+allocator.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/allocator.cpp
+END
+wavefront.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/wavefront.hpp
+END
+separable_input_first.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/separable_input_first.cpp
+END
+pim.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/pim.cpp
+END
+maxsize.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/maxsize.hpp
+END
+islip.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/islip.hpp
+END
+allocator.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/allocator.hpp
+END
+separable_output_first.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/separable_output_first.cpp
+END
+separable_input_first.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/separable_input_first.hpp
+END
+pim.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/pim.hpp
+END
+separable_output_first.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/separable_output_first.hpp
+END
+separable.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/separable.cpp
+END
+selalloc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/tags/pbook_baseline/src/allocators/selalloc.cpp
+END

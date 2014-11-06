@@ -1,0 +1,353 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/cgi-bin/svn.cgi/!svn/ver/5339/booksim2.0/branches/hotspot_reservation/src
+END
+credit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/credit.cpp
+END
+misc_utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/misc_utils.cpp
+END
+vc.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/vc.hpp
+END
+config.l
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/3338/booksim2.0/branches/hotspot_reservation/src/config.l
+END
+buffer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/buffer.hpp
+END
+trafficmanager.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/trafficmanager.hpp
+END
+credit.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/credit.hpp
+END
+misc_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/misc_utils.hpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/main.cpp
+END
+config_utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/config_utils.cpp
+END
+module.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/module.cpp
+END
+rng.c
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cgi-bin/svn.cgi/!svn/ver/3338/booksim2.0/branches/hotspot_reservation/src/rng.c
+END
+rng_wrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/rng_wrapper.cpp
+END
+flitchannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/flitchannel.cpp
+END
+booksim_config.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/booksim_config.cpp
+END
+globals.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/globals.hpp
+END
+config_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/config_utils.hpp
+END
+module.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/module.hpp
+END
+config.y
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/3338/booksim2.0/branches/hotspot_reservation/src/config.y
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/5339/booksim2.0/branches/hotspot_reservation/src/Makefile
+END
+flitchannel.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/flitchannel.hpp
+END
+booksim_config.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/booksim_config.hpp
+END
+voq_buffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/4155/booksim2.0/branches/hotspot_reservation/src/voq_buffer.cpp
+END
+stats.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/stats.cpp
+END
+flowbuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/4250/booksim2.0/branches/hotspot_reservation/src/flowbuffer.cpp
+END
+stats.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/stats.hpp
+END
+voq_buffer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/3863/booksim2.0/branches/hotspot_reservation/src/voq_buffer.hpp
+END
+flowbuffer.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/cgi-bin/svn.cgi/!svn/ver/4188/booksim2.0/branches/hotspot_reservation/src/flowbuffer.hpp
+END
+gen_curve.pl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/cgi-bin/svn.cgi/!svn/ver/3761/booksim2.0/branches/hotspot_reservation/src/gen_curve.pl
+END
+buffer_state.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/buffer_state.cpp
+END
+flowrob.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/4184/booksim2.0/branches/hotspot_reservation/src/flowrob.cpp
+END
+routefunc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cgi-bin/svn.cgi/!svn/ver/5339/booksim2.0/branches/hotspot_reservation/src/routefunc.cpp
+END
+outputset.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/outputset.cpp
+END
+timed_module.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/timed_module.hpp
+END
+channel.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/channel.hpp
+END
+buffer_state.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/buffer_state.hpp
+END
+traffic.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/traffic.cpp
+END
+flowrob.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/4160/booksim2.0/branches/hotspot_reservation/src/flowrob.hpp
+END
+routefunc.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/routefunc.hpp
+END
+rng_double_wrapper.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/rng_double_wrapper.cpp
+END
+outputset.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/outputset.hpp
+END
+injection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/injection.cpp
+END
+traffic.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/traffic.hpp
+END
+bgui.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/3338/booksim2.0/branches/hotspot_reservation/src/bgui.cpp
+END
+injection.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/injection.hpp
+END
+bgui.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/3338/booksim2.0/branches/hotspot_reservation/src/bgui.hpp
+END
+packet_reply_info.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/packet_reply_info.cpp
+END
+flit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/flit.cpp
+END
+rng-double.c
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/cgi-bin/svn.cgi/!svn/ver/3338/booksim2.0/branches/hotspot_reservation/src/rng-double.c
+END
+packet_reply_info.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/packet_reply_info.hpp
+END
+flit.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/flit.hpp
+END
+random_utils.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/random_utils.hpp
+END
+pipefifo.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/pipefifo.hpp
+END
+reservation.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/cgi-bin/svn.cgi/!svn/ver/3806/booksim2.0/branches/hotspot_reservation/src/reservation.hpp
+END
+booksim.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/booksim.hpp
+END
+vc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/vc.cpp
+END
+buffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/buffer.cpp
+END
+trafficmanager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/hotspot_reservation/src/trafficmanager.cpp
+END

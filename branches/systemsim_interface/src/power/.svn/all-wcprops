@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/src/power
+END
+buffer_monitor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/src/power/buffer_monitor.hpp
+END
+power_module.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/src/power/power_module.hpp
+END
+switch_monitor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/src/power/switch_monitor.cpp
+END
+switch_monitor.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/src/power/switch_monitor.hpp
+END
+buffer_monitor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/src/power/buffer_monitor.cpp
+END
+power_module.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/cgi-bin/svn.cgi/!svn/ver/5188/booksim2.0/branches/systemsim_interface/src/power/power_module.cpp
+END
