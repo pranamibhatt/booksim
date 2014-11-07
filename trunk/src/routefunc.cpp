@@ -811,8 +811,13 @@ int rand_min_intr_mesh( int src, int dest )
 
 //=============================================================
 
+/* romm routing for the mesh topology
+	The inputs passed in as input arguments have been defined in the header filed included
+	check flit.h, router.h etc for the class declarations and the member definitions/declarations */
+
 void romm_mesh( const Router *r, const Flit *f, int in_channel, OutputSet *outputs, bool inject )
 {
+	
   int vcBegin = 0, vcEnd = gNumVCs-1;
   if ( f->type == Flit::READ_REQUEST ) {
     vcBegin = gReadReqBeginVC;
@@ -827,25 +832,30 @@ void romm_mesh( const Router *r, const Flit *f, int in_channel, OutputSet *outpu
     vcBegin = gWriteReplyBeginVC;
     vcEnd = gWriteReplyEndVC;
   }
+	/* assert error ?? */
   assert(((f->vc >= vcBegin) && (f->vc <= vcEnd)) || (inject && (f->vc < 0)));
 
   int out_port;
 
+	/* if injecting true? injecting packets into the network? */
   if(inject) {
 
     out_port = -1;
 
   } else {
 
+		/* gN here is the dimension of the network */
     if ( in_channel == 2*gN ) {
       f->ph   = 0;  // Phase 0
+			/* find random node in between ? */
       f->intm = rand_min_intr_mesh( f->src, f->dest );
     } 
-
+		/* get ID of next router which is the intermediate flit */
     if ( ( f->ph == 0 ) && ( r->GetID( ) == f->intm ) ) {
       f->ph = 1; // Go to phase 1
     }
 
+		/* what is dor next mesh? */
     out_port = dor_next_mesh( r->GetID( ), (f->ph == 0) ? f->intm : f->dest );
 
     // at the destination router, we don't need to separate VCs by phase
@@ -856,9 +866,11 @@ void romm_mesh( const Router *r, const Flit *f, int in_channel, OutputSet *outpu
       assert(available_vcs > 0);
 
       if(f->ph == 0) {
+	
 	vcEnd -= available_vcs;
       } else {
 	assert(f->ph == 1);
+	/* number of VCs covered ?*/
 	vcBegin += available_vcs;
       }
     }
@@ -868,10 +880,15 @@ void romm_mesh( const Router *r, const Flit *f, int in_channel, OutputSet *outpu
   outputs->Clear( );
 
   outputs->AddRange( out_port, vcBegin, vcEnd );
+
+/* questions? can the routing be made more sophisticated and ensure that there
+is no deadlock in the VCs */
 }
 
 //=============================================================
 
+/* this is a more sophisticated and more complicated implementation of the ROMM routing 
+	 confirms that two classes cannot hold on to a resource for an indefinite period of time */
 void romm_ni_mesh( const Router *r, const Flit *f, int in_channel, OutputSet *outputs, bool inject )
 {
   int vcBegin = 0, vcEnd = gNumVCs-1;

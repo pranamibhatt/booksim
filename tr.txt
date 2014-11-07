@@ -1,0 +1,478 @@
+branches/classes/src/routers/chaos_router.cpp:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/classes/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+branches/classes/src/routers/.svn/text-base/iq_router.hpp.svn-base:93:  tRoutingFunction   _rf;
+branches/classes/src/routers/.svn/text-base/chaos_router.cpp.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/classes/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+branches/classes/src/routers/.svn/text-base/iq_router.cpp.svn-base:77:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/classes/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/classes/src/routers/iq_router.cpp:77:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/classes/src/routers/event_router.cpp:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/classes/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+branches/classes/src/routers/iq_router.hpp:93:  tRoutingFunction   _rf;
+branches/classes/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+branches/classes/src/vc.hpp:123:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/classes/src/vc.cpp:188:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/classes/src/routefunc.cpp:54:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/classes/src/.svn/text-base/routefunc.cpp.svn-base:54:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/classes/src/.svn/text-base/buffer.hpp.svn-base:124:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/classes/src/.svn/text-base/trafficmanager.cpp.svn-base:95:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/classes/src/.svn/text-base/trafficmanager.hpp.svn-base:83:  tRoutingFunction _rf;
+branches/classes/src/.svn/text-base/vc.cpp.svn-base:188:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/classes/src/.svn/text-base/routefunc.hpp.svn-base:39:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/classes/src/.svn/text-base/routefunc.hpp.svn-base:43:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/classes/src/.svn/text-base/vc.hpp.svn-base:123:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/classes/src/trafficmanager.cpp:95:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/classes/src/buffer.hpp:124:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/classes/src/routefunc.hpp:39:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/classes/src/routefunc.hpp:43:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/classes/src/trafficmanager.hpp:83:  tRoutingFunction _rf;
+branches/systemsim_interface/src/routers/chaos_router.cpp:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/systemsim_interface/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+branches/systemsim_interface/src/routers/.svn/text-base/iq_router.hpp.svn-base:100:  tRoutingFunction   _rf;
+branches/systemsim_interface/src/routers/.svn/text-base/chaos_router.cpp.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/systemsim_interface/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+branches/systemsim_interface/src/routers/.svn/text-base/iq_router.cpp.svn-base:91:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/systemsim_interface/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/systemsim_interface/src/routers/iq_router.cpp:91:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/systemsim_interface/src/routers/event_router.cpp:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/systemsim_interface/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+branches/systemsim_interface/src/routers/iq_router.hpp:100:  tRoutingFunction   _rf;
+branches/systemsim_interface/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+branches/systemsim_interface/src/vc.hpp:142:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/systemsim_interface/src/vc.cpp:196:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/systemsim_interface/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/systemsim_interface/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/systemsim_interface/src/.svn/text-base/buffer.hpp.svn-base:111:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/systemsim_interface/src/.svn/text-base/trafficmanager.cpp.svn-base:95:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/systemsim_interface/src/.svn/text-base/trafficmanager.hpp.svn-base:106:  tRoutingFunction _rf;
+branches/systemsim_interface/src/.svn/text-base/vc.cpp.svn-base:196:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/systemsim_interface/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/systemsim_interface/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/systemsim_interface/src/.svn/text-base/vc.hpp.svn-base:142:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/systemsim_interface/src/trafficmanager.cpp:95:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/systemsim_interface/src/buffer.hpp:111:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/systemsim_interface/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/systemsim_interface/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/systemsim_interface/src/trafficmanager.hpp:106:  tRoutingFunction _rf;
+branches/pbooksim/src/routers/chaos_router.cpp:59:  _rf = GetRoutingFunction( config );
+branches/pbooksim/src/routers/.svn/text-base/chaos_router.hpp.svn-base:45:  tRoutingFunction   _rf;
+branches/pbooksim/src/routers/.svn/text-base/iq_router.hpp.svn-base:92:  tRoutingFunction   _rf;
+branches/pbooksim/src/routers/.svn/text-base/chaos_router.cpp.svn-base:59:  _rf = GetRoutingFunction( config );
+branches/pbooksim/src/routers/.svn/text-base/event_router.hpp.svn-base:104:  tRoutingFunction   _rf;
+branches/pbooksim/src/routers/.svn/text-base/iq_router.cpp.svn-base:68:  _rf = GetRoutingFunction( config );
+branches/pbooksim/src/routers/.svn/text-base/event_router.cpp.svn-base:58:  _rf = GetRoutingFunction( config );
+branches/pbooksim/src/routers/iq_router.cpp:68:  _rf = GetRoutingFunction( config );
+branches/pbooksim/src/routers/event_router.cpp:58:  _rf = GetRoutingFunction( config );
+branches/pbooksim/src/routers/event_router.hpp:104:  tRoutingFunction   _rf;
+branches/pbooksim/src/routers/iq_router.hpp:92:  tRoutingFunction   _rf;
+branches/pbooksim/src/routers/chaos_router.hpp:45:  tRoutingFunction   _rf;
+branches/pbooksim/src/vc.hpp:95:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/pbooksim/src/vc.cpp:182:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/pbooksim/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/pbooksim/src/routefunc.cpp:1679:tRoutingFunction GetRoutingFunction( const Configuration& config )
+branches/pbooksim/src/routefunc.cpp:1681:  map<string, tRoutingFunction>::const_iterator match;
+branches/pbooksim/src/routefunc.cpp:1682:  tRoutingFunction rf;
+branches/pbooksim/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/pbooksim/src/.svn/text-base/routefunc.cpp.svn-base:1679:tRoutingFunction GetRoutingFunction( const Configuration& config )
+branches/pbooksim/src/.svn/text-base/routefunc.cpp.svn-base:1681:  map<string, tRoutingFunction>::const_iterator match;
+branches/pbooksim/src/.svn/text-base/routefunc.cpp.svn-base:1682:  tRoutingFunction rf;
+branches/pbooksim/src/.svn/text-base/trafficmanager.cpp.svn-base:210:  _routing_function  = GetRoutingFunction( config );
+branches/pbooksim/src/.svn/text-base/trafficmanager.hpp.svn-base:157:  tRoutingFunction  _routing_function;
+branches/pbooksim/src/.svn/text-base/vc.cpp.svn-base:182:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/pbooksim/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/pbooksim/src/.svn/text-base/routefunc.hpp.svn-base:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+branches/pbooksim/src/.svn/text-base/routefunc.hpp.svn-base:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/pbooksim/src/.svn/text-base/vc.hpp.svn-base:95:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/pbooksim/src/trafficmanager.cpp:210:  _routing_function  = GetRoutingFunction( config );
+branches/pbooksim/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/pbooksim/src/routefunc.hpp:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+branches/pbooksim/src/routefunc.hpp:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/pbooksim/src/trafficmanager.hpp:157:  tRoutingFunction  _routing_function;
+branches/mecs/src/routers/chaos_router.cpp:60:  _rf = GetRoutingFunction( config );
+branches/mecs/src/routers/.svn/text-base/iq_router_base.hpp.svn-base:95:  tRoutingFunction   _rf;
+branches/mecs/src/routers/.svn/text-base/chaos_router.hpp.svn-base:45:  tRoutingFunction   _rf;
+branches/mecs/src/routers/.svn/text-base/chaos_router.cpp.svn-base:60:  _rf = GetRoutingFunction( config );
+branches/mecs/src/routers/.svn/text-base/iq_router_base.cpp.svn-base:58:  _rf = GetRoutingFunction( config );
+branches/mecs/src/routers/.svn/text-base/event_router.hpp.svn-base:104:  tRoutingFunction   _rf;
+branches/mecs/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  _rf = GetRoutingFunction( config );
+branches/mecs/src/routers/event_router.cpp:59:  _rf = GetRoutingFunction( config );
+branches/mecs/src/routers/event_router.hpp:104:  tRoutingFunction   _rf;
+branches/mecs/src/routers/iq_router_base.cpp:58:  _rf = GetRoutingFunction( config );
+branches/mecs/src/routers/iq_router_base.hpp:95:  tRoutingFunction   _rf;
+branches/mecs/src/routers/chaos_router.hpp:45:  tRoutingFunction   _rf;
+branches/mecs/src/vc.hpp:139:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/mecs/src/vc.cpp:220:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/mecs/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/mecs/src/routefunc.cpp:1807:tRoutingFunction GetRoutingFunction( const Configuration& config )
+branches/mecs/src/routefunc.cpp:1809:  map<string, tRoutingFunction>::const_iterator match;
+branches/mecs/src/routefunc.cpp:1810:  tRoutingFunction rf;
+branches/mecs/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/mecs/src/.svn/text-base/routefunc.cpp.svn-base:1807:tRoutingFunction GetRoutingFunction( const Configuration& config )
+branches/mecs/src/.svn/text-base/routefunc.cpp.svn-base:1809:  map<string, tRoutingFunction>::const_iterator match;
+branches/mecs/src/.svn/text-base/routefunc.cpp.svn-base:1810:  tRoutingFunction rf;
+branches/mecs/src/.svn/text-base/trafficmanager.cpp.svn-base:302:  _routing_function  = GetRoutingFunction( config );
+branches/mecs/src/.svn/text-base/trafficmanager.hpp.svn-base:210:  tRoutingFunction  _routing_function;
+branches/mecs/src/.svn/text-base/vc.cpp.svn-base:220:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/mecs/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/mecs/src/.svn/text-base/routefunc.hpp.svn-base:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+branches/mecs/src/.svn/text-base/routefunc.hpp.svn-base:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/mecs/src/.svn/text-base/vc.hpp.svn-base:139:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/mecs/src/trafficmanager.cpp:302:  _routing_function  = GetRoutingFunction( config );
+branches/mecs/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/mecs/src/routefunc.hpp:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+branches/mecs/src/routefunc.hpp:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/mecs/src/trafficmanager.hpp:210:  tRoutingFunction  _routing_function;
+branches/backoff_alloc/src/routers/chaos_router.cpp:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/backoff_alloc/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+branches/backoff_alloc/src/routers/.svn/text-base/iq_router.hpp.svn-base:92:  tRoutingFunction   _rf;
+branches/backoff_alloc/src/routers/.svn/text-base/chaos_router.cpp.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/backoff_alloc/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+branches/backoff_alloc/src/routers/.svn/text-base/iq_router.cpp.svn-base:76:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/backoff_alloc/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/backoff_alloc/src/routers/iq_router.cpp:76:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/backoff_alloc/src/routers/event_router.cpp:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/backoff_alloc/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+branches/backoff_alloc/src/routers/iq_router.hpp:92:  tRoutingFunction   _rf;
+branches/backoff_alloc/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+branches/backoff_alloc/src/vc.hpp:123:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/backoff_alloc/src/vc.cpp:188:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/backoff_alloc/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/backoff_alloc/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/backoff_alloc/src/.svn/text-base/buffer.hpp.svn-base:124:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/backoff_alloc/src/.svn/text-base/trafficmanager.cpp.svn-base:99:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/backoff_alloc/src/.svn/text-base/trafficmanager.hpp.svn-base:101:  tRoutingFunction _rf;
+branches/backoff_alloc/src/.svn/text-base/vc.cpp.svn-base:188:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/backoff_alloc/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/backoff_alloc/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/backoff_alloc/src/.svn/text-base/vc.hpp.svn-base:123:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/backoff_alloc/src/trafficmanager.cpp:99:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/backoff_alloc/src/buffer.hpp:124:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/backoff_alloc/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/backoff_alloc/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/backoff_alloc/src/trafficmanager.hpp:101:  tRoutingFunction _rf;
+branches/ee382c/src/routers/chaos_router.cpp:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/ee382c/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+branches/ee382c/src/routers/.svn/text-base/iq_router.hpp.svn-base:89:  tRoutingFunction   _rf;
+branches/ee382c/src/routers/.svn/text-base/chaos_router.cpp.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/ee382c/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+branches/ee382c/src/routers/.svn/text-base/iq_router.cpp.svn-base:72:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/ee382c/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/ee382c/src/routers/iq_router.cpp:72:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/ee382c/src/routers/event_router.cpp:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/ee382c/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+branches/ee382c/src/routers/iq_router.hpp:89:  tRoutingFunction   _rf;
+branches/ee382c/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+branches/ee382c/src/vc.hpp:120:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/ee382c/src/vc.cpp:178:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/ee382c/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/ee382c/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/ee382c/src/.svn/text-base/buffer.hpp.svn-base:110:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/ee382c/src/.svn/text-base/trafficmanager.cpp.svn-base:101:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/ee382c/src/.svn/text-base/trafficmanager.hpp.svn-base:104:  tRoutingFunction _rf;
+branches/ee382c/src/.svn/text-base/vc.cpp.svn-base:178:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/ee382c/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/ee382c/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/ee382c/src/.svn/text-base/vc.hpp.svn-base:120:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/ee382c/src/trafficmanager.cpp:101:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/ee382c/src/buffer.hpp:110:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/ee382c/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/ee382c/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/ee382c/src/trafficmanager.hpp:104:  tRoutingFunction _rf;
+branches/age_based/src/routers/chaos_router.cpp:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/age_based/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+branches/age_based/src/routers/.svn/text-base/iq_router.hpp.svn-base:97:  tRoutingFunction   _rf;
+branches/age_based/src/routers/.svn/text-base/chaos_router.cpp.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/age_based/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+branches/age_based/src/routers/.svn/text-base/iq_router.cpp.svn-base:91:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/age_based/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/age_based/src/routers/iq_router.cpp:91:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/age_based/src/routers/event_router.cpp:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/age_based/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+branches/age_based/src/routers/iq_router.hpp:97:  tRoutingFunction   _rf;
+branches/age_based/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+branches/age_based/src/vc.hpp:132:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/age_based/src/vc.cpp:226:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/age_based/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/age_based/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/age_based/src/.svn/text-base/buffer.hpp.svn-base:114:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/age_based/src/.svn/text-base/trafficmanager.cpp.svn-base:110:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/age_based/src/.svn/text-base/trafficmanager.hpp.svn-base:104:  tRoutingFunction _rf;
+branches/age_based/src/.svn/text-base/vc.cpp.svn-base:226:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/age_based/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/age_based/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/age_based/src/.svn/text-base/vc.hpp.svn-base:132:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/age_based/src/trafficmanager.cpp:110:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/age_based/src/buffer.hpp:114:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/age_based/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/age_based/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/age_based/src/trafficmanager.hpp:104:  tRoutingFunction _rf;
+branches/priority_tree/src/routers/chaos_router.cpp:66:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/priority_tree/src/routers/.svn/text-base/chaos_router.hpp.svn-base:49:  tRoutingFunction   _rf;
+branches/priority_tree/src/routers/.svn/text-base/iq_router.hpp.svn-base:107:  tRoutingFunction   _rf;
+branches/priority_tree/src/routers/.svn/text-base/chaos_router.cpp.svn-base:66:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/priority_tree/src/routers/.svn/text-base/event_router.hpp.svn-base:105:  tRoutingFunction   _rf;
+branches/priority_tree/src/routers/.svn/text-base/iq_router.cpp.svn-base:109:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/priority_tree/src/routers/.svn/text-base/event_router.cpp.svn-base:62:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/priority_tree/src/routers/iq_router.cpp:109:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/priority_tree/src/routers/event_router.cpp:62:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/priority_tree/src/routers/event_router.hpp:105:  tRoutingFunction   _rf;
+branches/priority_tree/src/routers/iq_router.hpp:107:  tRoutingFunction   _rf;
+branches/priority_tree/src/routers/chaos_router.hpp:49:  tRoutingFunction   _rf;
+branches/priority_tree/src/vc.hpp:135:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/priority_tree/src/vc.cpp:270:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/priority_tree/src/routefunc.cpp:58:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/priority_tree/src/.svn/text-base/routefunc.cpp.svn-base:58:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/priority_tree/src/.svn/text-base/buffer.hpp.svn-base:117:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/priority_tree/src/.svn/text-base/trafficmanager.cpp.svn-base:113:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/priority_tree/src/.svn/text-base/trafficmanager.hpp.svn-base:107:  tRoutingFunction _rf;
+branches/priority_tree/src/.svn/text-base/vc.cpp.svn-base:270:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/priority_tree/src/.svn/text-base/routefunc.hpp.svn-base:39:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/priority_tree/src/.svn/text-base/routefunc.hpp.svn-base:43:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/priority_tree/src/.svn/text-base/vc.hpp.svn-base:135:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/priority_tree/src/trafficmanager.cpp:113:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/priority_tree/src/buffer.hpp:117:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/priority_tree/src/routefunc.hpp:39:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/priority_tree/src/routefunc.hpp:43:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/priority_tree/src/trafficmanager.hpp:107:  tRoutingFunction _rf;
+branches/gems_interface/src/routers/chaos_router.C:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/gems_interface/src/routers/.svn/text-base/iq_router.C.svn-base:72:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/gems_interface/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+branches/gems_interface/src/routers/.svn/text-base/iq_router.hpp.svn-base:90:  tRoutingFunction   _rf;
+branches/gems_interface/src/routers/.svn/text-base/chaos_router.C.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/gems_interface/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+branches/gems_interface/src/routers/.svn/text-base/event_router.C.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/gems_interface/src/routers/iq_router.C:72:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/gems_interface/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+branches/gems_interface/src/routers/event_router.C:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/gems_interface/src/routers/iq_router.hpp:90:  tRoutingFunction   _rf;
+branches/gems_interface/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+branches/gems_interface/src/vc.hpp:142:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/gems_interface/src/routefunc.C:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/gems_interface/src/.svn/text-base/trafficmanager.C.svn-base:95:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/gems_interface/src/.svn/text-base/buffer.hpp.svn-base:111:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/gems_interface/src/.svn/text-base/vc.C.svn-base:196:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/gems_interface/src/.svn/text-base/trafficmanager.hpp.svn-base:106:  tRoutingFunction _rf;
+branches/gems_interface/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/gems_interface/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/gems_interface/src/.svn/text-base/routefunc.C.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/gems_interface/src/.svn/text-base/vc.hpp.svn-base:142:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/gems_interface/src/buffer.hpp:111:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/gems_interface/src/vc.C:196:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/gems_interface/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/gems_interface/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/gems_interface/src/trafficmanager.C:95:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/gems_interface/src/trafficmanager.hpp:106:  tRoutingFunction _rf;
+branches/mpibooksim/src/routers/chaos_router.cpp:59:  _rf = GetRoutingFunction( config );
+branches/mpibooksim/src/routers/.svn/text-base/chaos_router.hpp.svn-base:45:  tRoutingFunction   _rf;
+branches/mpibooksim/src/routers/.svn/text-base/iq_router.hpp.svn-base:92:  tRoutingFunction   _rf;
+branches/mpibooksim/src/routers/.svn/text-base/chaos_router.cpp.svn-base:59:  _rf = GetRoutingFunction( config );
+branches/mpibooksim/src/routers/.svn/text-base/event_router.hpp.svn-base:104:  tRoutingFunction   _rf;
+branches/mpibooksim/src/routers/.svn/text-base/iq_router.cpp.svn-base:68:  _rf = GetRoutingFunction( config );
+branches/mpibooksim/src/routers/.svn/text-base/event_router.cpp.svn-base:58:  _rf = GetRoutingFunction( config );
+branches/mpibooksim/src/routers/iq_router.cpp:68:  _rf = GetRoutingFunction( config );
+branches/mpibooksim/src/routers/event_router.cpp:58:  _rf = GetRoutingFunction( config );
+branches/mpibooksim/src/routers/event_router.hpp:104:  tRoutingFunction   _rf;
+branches/mpibooksim/src/routers/iq_router.hpp:92:  tRoutingFunction   _rf;
+branches/mpibooksim/src/routers/chaos_router.hpp:45:  tRoutingFunction   _rf;
+branches/mpibooksim/src/vc.hpp:95:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/mpibooksim/src/vc.cpp:182:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/mpibooksim/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/mpibooksim/src/routefunc.cpp:1679:tRoutingFunction GetRoutingFunction( const Configuration& config )
+branches/mpibooksim/src/routefunc.cpp:1681:  map<string, tRoutingFunction>::const_iterator match;
+branches/mpibooksim/src/routefunc.cpp:1682:  tRoutingFunction rf;
+branches/mpibooksim/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/mpibooksim/src/.svn/text-base/routefunc.cpp.svn-base:1679:tRoutingFunction GetRoutingFunction( const Configuration& config )
+branches/mpibooksim/src/.svn/text-base/routefunc.cpp.svn-base:1681:  map<string, tRoutingFunction>::const_iterator match;
+branches/mpibooksim/src/.svn/text-base/routefunc.cpp.svn-base:1682:  tRoutingFunction rf;
+branches/mpibooksim/src/.svn/text-base/trafficmanager.cpp.svn-base:210:  _routing_function  = GetRoutingFunction( config );
+branches/mpibooksim/src/.svn/text-base/trafficmanager.hpp.svn-base:157:  tRoutingFunction  _routing_function;
+branches/mpibooksim/src/.svn/text-base/vc.cpp.svn-base:182:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/mpibooksim/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/mpibooksim/src/.svn/text-base/routefunc.hpp.svn-base:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+branches/mpibooksim/src/.svn/text-base/routefunc.hpp.svn-base:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/mpibooksim/src/.svn/text-base/vc.hpp.svn-base:95:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/mpibooksim/src/trafficmanager.cpp:210:  _routing_function  = GetRoutingFunction( config );
+branches/mpibooksim/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/mpibooksim/src/routefunc.hpp:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+branches/mpibooksim/src/routefunc.hpp:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/mpibooksim/src/trafficmanager.hpp:157:  tRoutingFunction  _routing_function;
+branches/hotspot_reservation/src/routers/chaos_router.cpp:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/hotspot_reservation/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+branches/hotspot_reservation/src/routers/.svn/text-base/iq_router.hpp.svn-base:108:  tRoutingFunction   _rf;
+branches/hotspot_reservation/src/routers/.svn/text-base/chaos_router.cpp.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/hotspot_reservation/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+branches/hotspot_reservation/src/routers/.svn/text-base/iq_router.cpp.svn-base:311:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/hotspot_reservation/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/hotspot_reservation/src/routers/iq_router.cpp:311:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/hotspot_reservation/src/routers/event_router.cpp:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/hotspot_reservation/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+branches/hotspot_reservation/src/routers/iq_router.hpp:108:  tRoutingFunction   _rf;
+branches/hotspot_reservation/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+branches/hotspot_reservation/src/vc.hpp:155:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/hotspot_reservation/src/vc.cpp:217:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/hotspot_reservation/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/hotspot_reservation/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/hotspot_reservation/src/.svn/text-base/buffer.hpp.svn-base:127:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/hotspot_reservation/src/.svn/text-base/trafficmanager.cpp.svn-base:483:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/hotspot_reservation/src/.svn/text-base/trafficmanager.hpp.svn-base:125:  tRoutingFunction _rf;
+branches/hotspot_reservation/src/.svn/text-base/vc.cpp.svn-base:217:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/hotspot_reservation/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/hotspot_reservation/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/hotspot_reservation/src/.svn/text-base/vc.hpp.svn-base:155:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/hotspot_reservation/src/trafficmanager.cpp:483:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/hotspot_reservation/src/buffer.hpp:127:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/hotspot_reservation/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/hotspot_reservation/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/hotspot_reservation/src/trafficmanager.hpp:125:  tRoutingFunction _rf;
+branches/SRP_IAR/src/routers/.svn/text-base/iq_router.hpp.svn-base:125:  tRoutingFunction   _rf;
+branches/SRP_IAR/src/routers/.svn/text-base/iq_router.cpp.svn-base:219:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/SRP_IAR/src/routers/iq_router.cpp:219:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/SRP_IAR/src/routers/iq_router.hpp:125:  tRoutingFunction   _rf;
+branches/SRP_IAR/src/vc.hpp:170:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/SRP_IAR/src/vc.cpp:279:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/SRP_IAR/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/SRP_IAR/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/SRP_IAR/src/.svn/text-base/buffer.hpp.svn-base:127:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/SRP_IAR/src/.svn/text-base/trafficmanager.cpp.svn-base:537:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/SRP_IAR/src/.svn/text-base/trafficmanager.hpp.svn-base:128:  tRoutingFunction _rf;
+branches/SRP_IAR/src/.svn/text-base/vc.cpp.svn-base:279:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/SRP_IAR/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/SRP_IAR/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/SRP_IAR/src/.svn/text-base/vc.hpp.svn-base:170:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/SRP_IAR/src/trafficmanager.cpp:537:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/SRP_IAR/src/buffer.hpp:127:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/SRP_IAR/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/SRP_IAR/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/SRP_IAR/src/trafficmanager.hpp:128:  tRoutingFunction _rf;
+branches/indirect_adaptive_routing/src/routers/chaos_router.cpp:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/indirect_adaptive_routing/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+branches/indirect_adaptive_routing/src/routers/.svn/text-base/iq_router.hpp.svn-base:99:  tRoutingFunction   _rf;
+branches/indirect_adaptive_routing/src/routers/.svn/text-base/chaos_router.cpp.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/indirect_adaptive_routing/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+branches/indirect_adaptive_routing/src/routers/.svn/text-base/iq_router.cpp.svn-base:90:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/indirect_adaptive_routing/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/indirect_adaptive_routing/src/routers/iq_router.cpp:90:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/indirect_adaptive_routing/src/routers/event_router.cpp:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/indirect_adaptive_routing/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+branches/indirect_adaptive_routing/src/routers/iq_router.hpp:99:  tRoutingFunction   _rf;
+branches/indirect_adaptive_routing/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+branches/indirect_adaptive_routing/src/vc.hpp:120:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/indirect_adaptive_routing/src/vc.cpp:178:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/indirect_adaptive_routing/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/indirect_adaptive_routing/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/indirect_adaptive_routing/src/.svn/text-base/buffer.hpp.svn-base:110:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/indirect_adaptive_routing/src/.svn/text-base/trafficmanager.cpp.svn-base:120:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/indirect_adaptive_routing/src/.svn/text-base/trafficmanager.hpp.svn-base:104:  tRoutingFunction _rf;
+branches/indirect_adaptive_routing/src/.svn/text-base/vc.cpp.svn-base:178:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/indirect_adaptive_routing/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/indirect_adaptive_routing/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/indirect_adaptive_routing/src/.svn/text-base/vc.hpp.svn-base:120:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+branches/indirect_adaptive_routing/src/trafficmanager.cpp:120:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+branches/indirect_adaptive_routing/src/buffer.hpp:110:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+branches/indirect_adaptive_routing/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+branches/indirect_adaptive_routing/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+branches/indirect_adaptive_routing/src/trafficmanager.hpp:104:  tRoutingFunction _rf;
+tags/pbook_baseline/src/routers/chaos_router.cpp:59:  _rf = GetRoutingFunction( config );
+tags/pbook_baseline/src/routers/.svn/text-base/chaos_router.hpp.svn-base:45:  tRoutingFunction   _rf;
+tags/pbook_baseline/src/routers/.svn/text-base/iq_router.hpp.svn-base:92:  tRoutingFunction   _rf;
+tags/pbook_baseline/src/routers/.svn/text-base/chaos_router.cpp.svn-base:59:  _rf = GetRoutingFunction( config );
+tags/pbook_baseline/src/routers/.svn/text-base/event_router.hpp.svn-base:104:  tRoutingFunction   _rf;
+tags/pbook_baseline/src/routers/.svn/text-base/iq_router.cpp.svn-base:68:  _rf = GetRoutingFunction( config );
+tags/pbook_baseline/src/routers/.svn/text-base/event_router.cpp.svn-base:58:  _rf = GetRoutingFunction( config );
+tags/pbook_baseline/src/routers/iq_router.cpp:68:  _rf = GetRoutingFunction( config );
+tags/pbook_baseline/src/routers/event_router.cpp:58:  _rf = GetRoutingFunction( config );
+tags/pbook_baseline/src/routers/event_router.hpp:104:  tRoutingFunction   _rf;
+tags/pbook_baseline/src/routers/iq_router.hpp:92:  tRoutingFunction   _rf;
+tags/pbook_baseline/src/routers/chaos_router.hpp:45:  tRoutingFunction   _rf;
+tags/pbook_baseline/src/vc.hpp:95:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+tags/pbook_baseline/src/vc.cpp:182:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+tags/pbook_baseline/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+tags/pbook_baseline/src/routefunc.cpp:1679:tRoutingFunction GetRoutingFunction( const Configuration& config )
+tags/pbook_baseline/src/routefunc.cpp:1681:  map<string, tRoutingFunction>::const_iterator match;
+tags/pbook_baseline/src/routefunc.cpp:1682:  tRoutingFunction rf;
+tags/pbook_baseline/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+tags/pbook_baseline/src/.svn/text-base/routefunc.cpp.svn-base:1679:tRoutingFunction GetRoutingFunction( const Configuration& config )
+tags/pbook_baseline/src/.svn/text-base/routefunc.cpp.svn-base:1681:  map<string, tRoutingFunction>::const_iterator match;
+tags/pbook_baseline/src/.svn/text-base/routefunc.cpp.svn-base:1682:  tRoutingFunction rf;
+tags/pbook_baseline/src/.svn/text-base/trafficmanager.cpp.svn-base:209:  _routing_function  = GetRoutingFunction( config );
+tags/pbook_baseline/src/.svn/text-base/trafficmanager.hpp.svn-base:157:  tRoutingFunction  _routing_function;
+tags/pbook_baseline/src/.svn/text-base/vc.cpp.svn-base:182:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+tags/pbook_baseline/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+tags/pbook_baseline/src/.svn/text-base/routefunc.hpp.svn-base:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+tags/pbook_baseline/src/.svn/text-base/routefunc.hpp.svn-base:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+tags/pbook_baseline/src/.svn/text-base/vc.hpp.svn-base:95:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+tags/pbook_baseline/src/trafficmanager.cpp:209:  _routing_function  = GetRoutingFunction( config );
+tags/pbook_baseline/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+tags/pbook_baseline/src/routefunc.hpp:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+tags/pbook_baseline/src/routefunc.hpp:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+tags/pbook_baseline/src/trafficmanager.hpp:157:  tRoutingFunction  _routing_function;
+tags/sc09/src/routers/chaos_router.cpp:59:  _rf = GetRoutingFunction( config );
+tags/sc09/src/routers/.svn/text-base/iq_router_base.hpp.svn-base:85:  tRoutingFunction   _rf;
+tags/sc09/src/routers/.svn/text-base/chaos_router.hpp.svn-base:45:  tRoutingFunction   _rf;
+tags/sc09/src/routers/.svn/text-base/chaos_router.cpp.svn-base:59:  _rf = GetRoutingFunction( config );
+tags/sc09/src/routers/.svn/text-base/iq_router_base.cpp.svn-base:66:  _rf = GetRoutingFunction( config );
+tags/sc09/src/routers/.svn/text-base/event_router.hpp.svn-base:104:  tRoutingFunction   _rf;
+tags/sc09/src/routers/.svn/text-base/event_router.cpp.svn-base:58:  _rf = GetRoutingFunction( config );
+tags/sc09/src/routers/event_router.cpp:58:  _rf = GetRoutingFunction( config );
+tags/sc09/src/routers/event_router.hpp:104:  tRoutingFunction   _rf;
+tags/sc09/src/routers/iq_router_base.cpp:66:  _rf = GetRoutingFunction( config );
+tags/sc09/src/routers/iq_router_base.hpp:85:  tRoutingFunction   _rf;
+tags/sc09/src/routers/chaos_router.hpp:45:  tRoutingFunction   _rf;
+tags/sc09/src/vc.hpp:106:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+tags/sc09/src/vc.cpp:212:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+tags/sc09/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+tags/sc09/src/routefunc.cpp:1679:tRoutingFunction GetRoutingFunction( const Configuration& config )
+tags/sc09/src/routefunc.cpp:1681:  map<string, tRoutingFunction>::const_iterator match;
+tags/sc09/src/routefunc.cpp:1682:  tRoutingFunction rf;
+tags/sc09/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+tags/sc09/src/.svn/text-base/routefunc.cpp.svn-base:1679:tRoutingFunction GetRoutingFunction( const Configuration& config )
+tags/sc09/src/.svn/text-base/routefunc.cpp.svn-base:1681:  map<string, tRoutingFunction>::const_iterator match;
+tags/sc09/src/.svn/text-base/routefunc.cpp.svn-base:1682:  tRoutingFunction rf;
+tags/sc09/src/.svn/text-base/trafficmanager.cpp.svn-base:228:  _routing_function  = GetRoutingFunction( config );
+tags/sc09/src/.svn/text-base/trafficmanager.hpp.svn-base:165:  tRoutingFunction  _routing_function;
+tags/sc09/src/.svn/text-base/vc.cpp.svn-base:212:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+tags/sc09/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+tags/sc09/src/.svn/text-base/routefunc.hpp.svn-base:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+tags/sc09/src/.svn/text-base/routefunc.hpp.svn-base:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+tags/sc09/src/.svn/text-base/vc.hpp.svn-base:106:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+tags/sc09/src/trafficmanager.cpp:228:  _routing_function  = GetRoutingFunction( config );
+tags/sc09/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+tags/sc09/src/routefunc.hpp:40:tRoutingFunction GetRoutingFunction( const Configuration& config );
+tags/sc09/src/routefunc.hpp:42:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+tags/sc09/src/trafficmanager.hpp:165:  tRoutingFunction  _routing_function;
+trunk/src/routers/chaos_router.cpp:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+trunk/src/routers/.svn/text-base/chaos_router.hpp.svn-base:46:  tRoutingFunction   _rf;
+trunk/src/routers/.svn/text-base/iq_router.hpp.svn-base:93:  tRoutingFunction   _rf;
+trunk/src/routers/.svn/text-base/chaos_router.cpp.svn-base:63:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+trunk/src/routers/.svn/text-base/event_router.hpp.svn-base:102:  tRoutingFunction   _rf;
+trunk/src/routers/.svn/text-base/iq_router.cpp.svn-base:77:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+trunk/src/routers/.svn/text-base/event_router.cpp.svn-base:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+trunk/src/routers/iq_router.cpp:77:  map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+trunk/src/routers/event_router.cpp:59:  map<string, tRoutingFunction>::iterator rf_iter = gRoutingFunctionMap.find(rf);
+trunk/src/routers/event_router.hpp:102:  tRoutingFunction   _rf;
+trunk/src/routers/iq_router.hpp:93:  tRoutingFunction   _rf;
+trunk/src/routers/chaos_router.hpp:46:  tRoutingFunction   _rf;
+trunk/src/vc.hpp:123:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+Binary file trunk/src/.routefunc.cpp.swp matches
+trunk/src/vc.cpp:188:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+trunk/src/routefunc.cpp:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+Binary file trunk/src/booksim matches
+trunk/src/.svn/text-base/routefunc.cpp.svn-base:55:map<string, tRoutingFunction> gRoutingFunctionMap;
+trunk/src/.svn/text-base/buffer.hpp.svn-base:124:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+trunk/src/.svn/text-base/trafficmanager.cpp.svn-base:100:    map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+trunk/src/.svn/text-base/trafficmanager.hpp.svn-base:106:  tRoutingFunction _rf;
+trunk/src/.svn/text-base/vc.cpp.svn-base:188:void VC::Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+trunk/src/.svn/text-base/routefunc.hpp.svn-base:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+trunk/src/.svn/text-base/routefunc.hpp.svn-base:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+trunk/src/.svn/text-base/vc.hpp.svn-base:123:  void Route( tRoutingFunction rf, const Router* router, const Flit* f, int in_channel );
+trunk/src/trafficmanager.cpp:100:    map<string, tRoutingFunction>::const_iterator rf_iter = gRoutingFunctionMap.find(rf);
+trunk/src/buffer.hpp:124:  inline void Route( int vc, tRoutingFunction rf, const Router* router, const Flit* f, int in_channel )
+Binary file trunk/src/obj/vc.o matches
+Binary file trunk/src/obj/chaos_router.o matches
+Binary file trunk/src/obj/event_router.o matches
+Binary file trunk/src/obj/iq_router.o matches
+Binary file trunk/src/obj/trafficmanager.o matches
+Binary file trunk/src/obj/buffer.o matches
+trunk/src/routefunc.hpp:36:typedef void (*tRoutingFunction)( const Router *, const Flit *, int in_channel, OutputSet *, bool );
+trunk/src/routefunc.hpp:40:extern map<string, tRoutingFunction> gRoutingFunctionMap;
+trunk/src/trafficmanager.hpp:106:  tRoutingFunction _rf;
